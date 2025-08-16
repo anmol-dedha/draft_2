@@ -7,4 +7,4 @@ numpy
 soundfile
 streamlit-webrtc
 av
-pillow==9.5.0
+pillow>=9.5.0,<10
