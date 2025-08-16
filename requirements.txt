@@ -1,11 +1,8 @@
 streamlit
-torch
+streamlit-webrtc
 whisper
+torch
 gTTS
 numpy
-soundfile
-rich
-markdown-it-py
-pygments
-mdurl
 requests
+soundfile
