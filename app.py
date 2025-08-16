@@ -5,7 +5,6 @@ import tempfile
 import os
 from gtts import gTTS
 from io import BytesIO
-from streamlit_webrtc import webrtc_streamer, WebRtcMode, ClientSettings
 
 # Load OpenRouter API key from Streamlit secrets
 OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
@@ -88,3 +87,4 @@ if prompt:
         audio_bytes = BytesIO()
         tts.write_to_fp(audio_bytes)
         st.audio(audio_bytes.getvalue(), format="audio/mp3")
+
