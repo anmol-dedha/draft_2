@@ -1,6 +1,6 @@
 streamlit
 streamlit-webrtc
-whisper
+openai-whisper
 torch
 gTTS
 numpy
