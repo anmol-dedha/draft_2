@@ -6,3 +6,4 @@ gTTS
 numpy
 requests
 soundfile
+ffmpeg-python
